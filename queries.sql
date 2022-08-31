@@ -161,7 +161,9 @@ EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
 
 CREATE INDEX animals_id_asc ON visits (animals_id ASC);
 
-EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM visits where vets_id = 2;
+
+
 
 
 
